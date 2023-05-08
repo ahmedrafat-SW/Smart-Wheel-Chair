@@ -39,8 +39,10 @@ order to send patient rescue when needed.**
  - **Html**
 
 ### Hardware Tools :
- - **Arduino. Uno**
 
+![Screenshot 2023-05-09 003803](https://user-images.githubusercontent.com/129176607/236940968-ec895678-efae-4657-b061-e7f535ccb480.png)
+
+ - **Arduino. Uno** 
  - **Hc-05 Bluetooth module**
 
  - **Esp. 32**
@@ -52,6 +54,13 @@ order to send patient rescue when needed.**
  - **Ultrasonic sensor**
 
 ### Software Tools :
+
+![2](https://user-images.githubusercontent.com/129176607/236944433-850f8832-f6d4-4a56-a7fb-73824381f86b.png)
+![3](https://user-images.githubusercontent.com/129176607/236944442-06f30a14-f5f1-4569-ae73-7961a6a83009.png)
+![5](https://user-images.githubusercontent.com/129176607/236944456-7b9db2f6-813b-4abb-bcf3-628abde2ebf5.png)
+![6](https://user-images.githubusercontent.com/129176607/236944465-1e2c2fa3-ac00-4221-9182-c2d28b2f7f58.png)
+
+
 
  - **Android Studio**
   
