@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_dir"
+    tools:context=".Main">
+
+
+    <TextView
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/amarante"
+        android:text="@string/my_bt_name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_search"
+        android:background="#374ABD"
+        android:padding="5dp"
+        android:layout_below="@id/bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="@string/_" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        style="@style/Widget.AppCompat.ListView.DropDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchButton"
+        android:layout_marginTop="100dp"
+        android:background="#0AFAFBFB"
+        android:cacheColorHint="@android:color/background_light"
+        android:textDirection="firstStrongLtr" tools:targetApi="jelly_bean_mr1" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_below="@id/search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/paired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statustextView"
+
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amarante"
+        android:text="@string/paired_devices"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/statustextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/searchButton"/>
+
+</RelativeLayout>

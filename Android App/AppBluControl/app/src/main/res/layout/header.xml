@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350sp"
+    android:layout_height="275sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/background_header"
+    android:layout_marginTop="10dp"
+    android:padding="10sp">
+
+    <ImageView
+        android:layout_width="135sp"
+        android:layout_height="135sp"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/todo_" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:textColor="#202D30"
+        android:fontFamily="@font/orbitron_bold"
+        android:text="@string/iot_smart_wheelchair"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

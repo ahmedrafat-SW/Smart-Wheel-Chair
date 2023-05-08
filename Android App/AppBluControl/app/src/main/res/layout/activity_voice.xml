@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_dir"
+    tools:context=".Voice">
+        <TextView
+            android:id="@+id/txvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:textColor="#484849"
+            android:textSize="26sp"
+            android:textStyle="normal"/>
+    <ImageView
+        android:id="@+id/voice_Btn"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="290dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        app:srcCompat="@drawable/voi"
+        android:contentDescription="@string/todo1" />
+
+</RelativeLayout>

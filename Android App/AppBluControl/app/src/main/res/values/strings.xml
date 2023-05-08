@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App Controller</string>
+    <string name="control">Control</string>
+    <string name="stop">Stop</string>
+    <string name="wellcome">Wellcome</string>
+    <string name="todo" />
+    <string name="my_bt_name">My BT name</string>
+    <string name="search">Search</string>
+    <string name="_">TODO</string>
+    <string name="iot_smart_wheelchair">IOT Smart Wheelchair</string>
+    <string name="todo_">TODO</string>
+    <string name="todo__">TODO</string>
+    <string name="nav_drawer_open">Open Navigation drawer</string>
+    <string name="nav_drawer_close">Close Navigation drawer</string>
+    <string name="todo1">TODO</string>
+    <string name="paired_devices">Paired Devices</string>
+
+</resources>
