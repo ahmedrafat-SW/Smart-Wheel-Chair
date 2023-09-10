@@ -5,6 +5,7 @@
 - **There are many paralysis patients who suffer from the difficultyof using the chair for the traditional wheelchair,
  in addition to the fact that many of them also suffer from loneliness and the absence of anyone to care for them,
  based on that the idea of ourproject came.**
+![Screenshot 2023-08-04 164046](https://github.com/ahmedrafat-SW/Smart-Wheel-Chair/assets/129176607/1638de2c-33c5-4fc0-b0d8-b7fdac1096fb)
 
 - **This project helps people with paralysis who have no one to
 look after them either.**
