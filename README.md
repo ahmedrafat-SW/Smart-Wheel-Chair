@@ -1,6 +1,5 @@
-# IOT Smart Wheelchair
-
-## Abstract
+# IOT Smart Wheelchair 
+## Abstract <img src="https://github.com/ahmedrafat-SW/Smart-Wheel-Chair/assets/129176607/07b36370-83c8-4cea-b8ac-6cdc57a8b240" width="40" height="40">
 
 - **There are many paralysis patients who suffer from the difficultyof using the chair for the traditional wheelchair,
  in addition to the fact that many of them also suffer from loneliness and the absence of anyone to care for them,
