@@ -1,59 +1,39 @@
 # IOT Smart Wheelchair 
-## Abstract <img src="https://github.com/ahmedrafat-SW/Smart-Wheel-Chair/assets/129176607/07b36370-83c8-4cea-b8ac-6cdc57a8b240" width="40" height="40">
 
-- **There are many paralysis patients who suffer from the difficultyof using the chair for the traditional wheelchair,
- in addition to the fact that many of them also suffer from loneliness and the absence of anyone to care for them,
- based on that the idea of ourproject came.**
+## Overview
+
+The Smart Wheelchair project aims to assist individuals with paralysis, particularly those lacking personal care, by offering a modern, technology-integrated wheelchair solution. The system enables wheelchair control via a joystick, voice commands through an Android app, and incorporates safety features like fall detection and temperature monitoring.
+
 ![Screenshot 2023-08-04 164046](https://github.com/ahmedrafat-SW/Smart-Wheel-Chair/assets/129176607/1638de2c-33c5-4fc0-b0d8-b7fdac1096fb)
 
-- **This project helps people with paralysis who have no one to
-look after them either.**
+## Features
 
-- **The wheelchair is moved via a joystick or an Android app that
-the patient uses to give four way movement commands (left,
-right, forward, or backward).**
+- **Control Mechanisms**: Operate via a joystick or Android app with directional controls and voice commands.
+- **Safety Features**: Includes an ultrasonic sensor for fall detection, sending alerts to medical facilities.
+- **Location Tracking**: Utilizes GPS for real-time location sharing with hospitals.
+- **Health Monitoring**: Equipped with sensors to monitor the patient's body temperature.
 
-- **The patient can also move the chair by voice commands using
-the same Android app.**
+## Technologies
 
-- **The wheelchair is equipped with an ultrasound sensor,
-If the chair falls in any direction, a message will be sent via the
-sensor to the hospital to obtain a rescue.**
+### Web Service
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP, MySQL
 
-- **The Global Positioning System (GPS) is used to send the exact
-location of an infected patient so that the hospital sends someone
-to rescue him.**
-
-- **The wheelchair also has a sensor to sense the patient's body
-temperature.**
-
-- **All patient data read by the sensors is sent to the hospital in
-order to send patient rescue when needed.**
-
-## Tools
-
-### Web Service Tools:
- - **PHP/MySQL**
- - **Java script**
- - **Css**
- - **Html**
-
-### Hardware Tools :
-
+### Hardware Components
+- Arduino Uno
+- HC-05 Bluetooth module
+- ESP32
+- Neo 6M V2 GPS
+- DS18B20 temperature sensor
+- Ultrasonic sensor
+  
 ![Screenshot 2023-05-09 003803](https://user-images.githubusercontent.com/129176607/236940968-ec895678-efae-4657-b061-e7f535ccb480.png)
 
- - **Arduino. Uno** 
- - **Hc-05 Bluetooth module**
 
- - **Esp. 32**
-  
- - **Neo 6 m v2 GPS**
-
- - **DS18B20 sensor**
-
- - **Ultrasonic sensor**
-
-### Software Tools :
+### Software Tools
+- Android Studio
+- Arduino IDE
+- Web Hosting Services
 
 ![2](https://user-images.githubusercontent.com/129176607/236944433-850f8832-f6d4-4a56-a7fb-73824381f86b.png)
 ![3](https://user-images.githubusercontent.com/129176607/236944442-06f30a14-f5f1-4569-ae73-7961a6a83009.png)
@@ -61,9 +41,9 @@ order to send patient rescue when needed.**
 ![6](https://user-images.githubusercontent.com/129176607/236944465-1e2c2fa3-ac00-4221-9182-c2d28b2f7f58.png)
 
 
+## Getting Started
 
- - **Android Studio**
-  
- - **Arduino ide**
-  
- - **Web host**
+To set up the project, clone the repository and follow the instructions provided in the respective folders for hardware and software configuration.
+
+```bash
+git clone https://github.com/ahmedrafat-SW/Smart-Wheel-Chair.git
